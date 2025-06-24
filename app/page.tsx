@@ -58,24 +58,33 @@ export default function ColoniaFeriasLanding() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
-      {/* 
-        FONTE CUSTOMIZADA - IMPLEMENTAÇÃO FUTURA
-        Adicionar aqui a importação da fonte escolhida
-        Exemplo: @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-        E aplicar nas classes: font-custom
-      */}
-
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center">
-            <Image src="/images/Logo.png" alt="Sa Brincante" width={120} height={40} className="h-10 w-auto" />
+          <div className="flex items-center space-x-3">
+            <Image
+              src="/images/Logo.png"
+              alt="Sa Brincante"
+              width={120}
+              height={40}
+              className="h-10 w-auto"
+            />
+            {/* TÍTULO COM FONTE PERSONALIZADA */}
+            <h1 className="text-2xl font-blippo text-orange-600">
+              Sa Brincante
+            </h1>
           </div>
           <Button
             onClick={handleWhatsAppClick}
             className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium"
           >
-            <Image src="/images/whatsappBranco.png" alt="WhatsApp" width={16} height={16} className="mr-2" />
+            <Image
+              src="/images/whatsappBranco.png"
+              alt="WhatsApp"
+              width={16}
+              height={16}
+              className="mr-2"
+            />
             WhatsApp
           </Button>
         </div>
@@ -87,7 +96,9 @@ export default function ColoniaFeriasLanding() {
           <div className="mb-6">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
               Colônia de Férias
-              <span className="block text-yellow-200">Sa Brincante</span>
+              <span className="block text-yellow-200 font-blippo">
+                Sa Brincante
+              </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-orange-100">
               Diversão garantida nas melhores escolas da Grande Vitória!
