@@ -52,7 +52,7 @@ export default function ColoniaFeriasLanding() {
 
   const handleWhatsAppClick = () => {
     const message = "Olá! Gostaria de saber mais informações sobre a Colônia de Férias da Sa Brincante! 🏖️"
-    const whatsappUrl = `https://wa.me/5527999999999?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/5527992256996?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
