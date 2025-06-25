@@ -13,25 +13,25 @@ export default function ColoniaFeriasLanding() {
     {
       nome: "Crescer PHD",
       localizacao: "Praia do Canto",
-      imagem: "/images/Crescer.png",
+      imagem: "/images/Crescer.jpg",
       descricao: "Ambiente acolhedor e seguro no coração da Praia do Canto",
     },
     {
       nome: "Escola SIENA",
       localizacao: "Jardim Camburi",
-      imagem: "/images/SienaJc.png",
+      imagem: "/images/SienaJc.jpg",
       descricao: "Estrutura completa em uma das melhores regiões de Vitória",
     },
     {
       nome: "Escola SIENA",
       localizacao: "Serra",
-      imagem: "/images/SienaSerra.png",
+      imagem: "/images/SienaSerra.jpeg",
       descricao: "Espaço amplo e moderno na Serra",
     },
     {
       nome: "Centro Educacional Conexão",
       localizacao: "Vila Velha",
-      imagem: "/images/Conexao.png",
+      imagem: "/images/Conexao.jpeg",
       descricao: "Localização privilegiada em Vila Velha",
     },
   ]
